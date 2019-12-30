@@ -61,7 +61,7 @@ class App extends React.Component {
         <Container maxWidth="lg">
         <div className="PostingSection">
           <Paper className="PostingPaper">
-          <h2>대나무 숲 글 작성하기</h2>
+          <h1>대나무 숲 글 작성하기</h1>
           <form className="PostingForm" onSubmit={this.handlingSubmit}>
 
             <TextField
